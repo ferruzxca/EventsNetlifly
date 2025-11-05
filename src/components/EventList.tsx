@@ -1,6 +1,5 @@
 import type { EventItem } from "../types";
 
-
 type Props = {
   items: EventItem[];
   view: "grid" | "list";

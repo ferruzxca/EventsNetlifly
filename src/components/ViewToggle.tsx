@@ -1,4 +1,3 @@
-
 type Props = { view: "grid" | "list"; onChange: (v: "grid" | "list") => void };
 
 export default function ViewToggle({ view, onChange }: Props) {

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import "./styles.css";
-import type { EventItem } from "./types";   // <- aquí
+import type { EventItem } from "./types";
 import EventForm from "./components/EventForm";
 import EventList from "./components/EventList";
 import ViewToggle from "./components/ViewToggle";

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { EventItem } from "../types"; 
+import type { EventItem } from "../types";
 
 type Props = { onAdd: (e: EventItem) => void };
 
@@ -19,7 +19,7 @@ export default function EventForm({ onAdd }: Props) {
       title: cleanTitle,
       date,
       organizer: cleanOrg,
-      completed: false,
+      completed: false
     };
     onAdd(item);
     setTitle("");

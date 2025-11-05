@@ -170,3 +170,10 @@ body {
   border-radius: 8px;
   background: #0e1126;
 }
+
+/* responsive: apila el formulario en pantallas estrechas */
+@media (max-width: 700px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+}
