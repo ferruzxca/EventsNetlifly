@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import "./styles.css";
 import type { EventItem } from "./types";   // <- aquí
 import EventForm from "./components/EventForm";

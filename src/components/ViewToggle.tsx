@@ -1,4 +1,3 @@
-import React from "react";
 
 type Props = { view: "grid" | "list"; onChange: (v: "grid" | "list") => void };
 

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import type { EventItem } from "../types"; 
 
 type Props = { onAdd: (e: EventItem) => void };
